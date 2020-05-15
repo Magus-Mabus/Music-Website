@@ -1,0 +1,28 @@
+{
+    "updates":[
+        {
+            "title":"Virtual Beatstock 2020",
+            "description":"Join us for our Youtube live premiere of Beatstock",
+            "details":"7:30pm EST Friday, May 29th<br>Submissions due 11:59pm EST Wednesday, May 20th",
+            "btn_txt":"Sign Up",
+            "btn_url":"https://docs.google.com/forms/d/e/1FAIpQLSfOrGt4-PgwU0UDOno6vcEazct0SuzF-T5ujiVE8vaasTlKoQ/viewform",
+            "img_url":"images/beatstock2020.gif"
+        },
+        {
+            "title":"Spring 2020 Playlist Competition",
+            "description":"Submit an original playlist of your best tunes to win e-giftcards!",
+            "details":"Submissions due 11:59pm EST Wednesday, May 20th",
+            "btn_txt":"Submit",
+            "btn_url":"mailto:thea_chung21@milton.edu, sebastian_park21@milton.edu",
+            "img_url":"images/record.png"
+        },
+        {
+            "title":"Apply for the Magus Mabus Board!",
+            "description":"",
+            "details":"Submissions due 11:59pm EST on May 26th <br>_",
+            "btn_txt":"Apply now",
+            "btn_url":"https://docs.google.com/document/d/1yGAvtjvFuntGiI_CKEj8OGM8U22CA6C7T1oPsGvVCzE/edit?usp=sharing",
+            "img_url":""
+        }
+    ]
+}
