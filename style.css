@@ -6,7 +6,9 @@ body{
     /* background-color: black; */
     /* background-image: linear-gradient(rgba(252, 178, 236, 0.959),rgb(190, 172, 255),rgb(207, 235, 248)); */
     /* background-image: linear-gradient(to bottom right, #ffd9ff,#ffceff,#ffc6ff,#e7bfff,#d8bbff,#c8b6ff,#a0c4ff,#a0cbff,#9eddff); */
-    background-image: linear-gradient(to bottom right, #ffd9ff,#ffceff,#e7bfff,#d8bbff,#a0cbff,#9eddff);
+    /* background-image: linear-gradient(to bottom right, #ffd9ff,#ffceff,#e7bfff,#d8bbff,#a0cbff,#9eddff); */
+    background-image: linear-gradient(to bottom right, #ffa9ff,#dda5fd,#d0acff,#a0cbff,#9eddff);
+    /* background-image: linear-gradient(to bottom right, #ffa9ff,#ffa0ff,#dda5fd,#d8bbff,#a0cbff,#9eddff); */
     height:100%;
     background-attachment: fixed;
 }
@@ -119,15 +121,15 @@ body{
     border-width: 10px;
 }
 
-@media (min-width:1000px) {
-    .upcoming{
-        width: 50%;
-    }
-  }
-
 @media (min-width:400px) {
     .upcoming{
         width: 90%;
+    }
+  }
+
+@media (min-width:1000px) {
+    .upcoming{
+        width: 50%;
     }
   }
 
