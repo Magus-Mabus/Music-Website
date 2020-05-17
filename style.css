@@ -58,8 +58,10 @@ body{
 }
 
 .page-content{
-    margin-top: 65%;
+    position: absolute;
+    top: 100%;
     padding: 0px;
+    width: 100%;
 }
 
 .page-footer{
