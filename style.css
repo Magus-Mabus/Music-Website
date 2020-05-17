@@ -171,6 +171,12 @@ body{
     font-family: 'Quicksand';
     width: 15%;
     margin-top: 25px;
+    transition: all ease-in-out .2s;
+}
+
+.sign-up-button:hover{
+    background-color: rgb(110, 192, 219);
+    width: 16%;
 }
 
 .button-text{
