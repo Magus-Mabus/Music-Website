@@ -1,9 +1,9 @@
 var titleSize = "100px";
 var width;
 var headerSize = "60px";
+resizeFunction();
 scrollFunction();
 fadeOutFader();
-resizeFunction();
 window.onresize = function () { resizeFunction() };
 window.onscroll = function () { scrollFunction() };
 particlesJS.load("particles-js", "particle-cfg.json");
@@ -43,7 +43,7 @@ function resizeFunction(){
         titleSize = "100px";
     }
     else {
-        titleSize = "90px";
+        titleSize = "80px";
     }
 }
 
