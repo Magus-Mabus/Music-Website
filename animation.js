@@ -1,5 +1,10 @@
+var titleSize = "100px";
+var width;
+var headerSize = "60px";
 scrollFunction();
 fadeOutFader();
+resizeFunction();
+window.onresize = function () { resizeFunction() };
 window.onscroll = function () { scrollFunction() };
 particlesJS.load("particles-js", "particle-cfg.json");
 function scrollFunction() {
@@ -8,19 +13,37 @@ function scrollFunction() {
     if (document.body.scrollTop / document.body.clientHeight > 50 / 790
         || document.documentElement.scrollTop / document.body.clientHeight > 50 / 790) {
         mainTitle.padding = "0px 0px";
-        mainTitle.backgroundColor = "rgba(248, 169, 244, 0.6)";
+        mainTitle.backgroundColor = "#dda5fd90";
+        mainTitle.backdropFilter = "blur(20px)";
         mainTitle.top = "-1%";
-        mainTitle.fontSize = "4vw";
-        // mainTitle.fontSize = "60px";
+        // mainTitle.fontSize = "4vw";
+        mainTitle.fontSize = headerSize;
         mainTitle.fontWeight = "100";
         // particleCanvas.opacity = "0";
     } else {
         mainTitle.padding = "20px 20px";
-        mainTitle.backgroundColor = "rgba(255, 105, 180, 0)";
+        mainTitle.backgroundColor = "transparent";
         mainTitle.top = "40%";
-        // mainTitle.fontSize = "100px";
-        mainTitle.fontSize = "7vw";
+        mainTitle.backdropFilter = "none";
+        mainTitle.fontSize = titleSize;
+        // mainTitle.fontSize = "7vw";
         particleCanvas.opacity = "1";
+    }
+}
+
+function resizeFunction(){
+    width = document.body.clientWidth;
+    if (width > 600) {
+        headerSize = "60px";
+    }
+    else {
+        headerSize = "40px";
+    }
+    if (width > 375) {
+        titleSize = "100px";
+    }
+    else {
+        titleSize = "90px";
     }
 }
 

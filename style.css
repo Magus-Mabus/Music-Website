@@ -58,6 +58,7 @@ body{
 }
 
 .page-content{
+    /*margin-top: 50%*/
     position: absolute;
     top: 100%;
     padding: 0px;
@@ -93,6 +94,13 @@ body{
     font-size: 40px;
     transition: ease-in-out .2s;
 }
+
+@media (max-width:420px) {
+    .icon-link{
+        font-size: 7vw !important;
+    }
+  }
+
 
 .icon-link:hover{
     transform: scale(1.2,1.2);
