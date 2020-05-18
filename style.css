@@ -101,6 +101,11 @@ body{
     }
   }
 
+@media (max-width:350px) {
+    .icon-link{
+        font-size: 5vw !important;
+    }
+  }
 
 .icon-link:hover{
     transform: scale(1.2,1.2);
