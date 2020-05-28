@@ -46,7 +46,7 @@ body{
     color: rgb(255, 255, 255);
     font-family: "Poppins";
     text-align: center;
-    font-weight: 100;
+    font-weight: 200;
     top: 40%;
     position: fixed;
     left: 50%;
@@ -317,8 +317,6 @@ body{
     position: relative;
     transition: all ease-in-out .2s;
 }
-
-
 
 .icon-image:hover{
     transform: scale(1.1,1.1);
