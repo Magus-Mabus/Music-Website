@@ -236,6 +236,32 @@ body{
     position:relative;
 }
 
+.playlists {
+    background-color: white;
+    border-radius: 10px;
+    width: 95%;
+    position: relative;
+    left: 50%;
+    padding: 0%;
+    transform: translate(-50%,0);
+    border: solid rgb(206, 206, 206);
+    border-width: 1px 1px;
+}
+
+.featured-title{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Quicksand";
+    font-size: 30px;
+    font-weight:500;
+    color: white;
+    border-radius: 8px 8px 0px 0px;
+    background-color: rgb(162, 129, 252);
+    top: 0%;
+    padding: 20px;
+    margin-top: 0;
+}
+
 .insta-feed{
     scale: 40% !important;
     margin-right: 0%;
