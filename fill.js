@@ -37,7 +37,7 @@ function fillFeatured(item) {
         '<div class = "playlist">' +
         '<p class="playlist-title">' + item['title'] + ' </p>' +
         '<p class="playlist-details">' + item['description'] +
-        '<br>' + item['details'] + '</p>' +
+        '<br>'  + "Original playlist by " + item['creator'] + '</p>' +
         '<a class="transparent" href="' + item['playlist_url'] + '" target="_blank">' +
         '<img src="' + item['platform_img'] + '" alt="" class="icon-image">' +
         '</a>' +

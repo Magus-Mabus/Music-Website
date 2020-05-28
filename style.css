@@ -326,7 +326,9 @@ body{
     position:relative;
 }
 
-.insta-feed{
+
+#pixlee_container{
     scale: 40% !important;
+    margin-top: 0px;
     margin-right: 0%;
 }
