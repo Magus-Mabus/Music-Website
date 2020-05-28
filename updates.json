@@ -7,22 +7,6 @@
             "btn_txt":"Join Premiere",
             "btn_url":"https://www.youtube.com/channel/UCaNraIwjfO12Ejxw30TL8cg?view_as=subscriber",
             "img_url":"images/beatstock2020.gif"
-        },
-        {
-            "title":"Spring 2020 Playlist Competition",
-            "description":"Submit an original playlist of your best tunes to win e-giftcards!",
-            "details":"Submissions due 11:59pm EST Wednesday, May 20th",
-            "btn_txt":"Submit",
-            "btn_url":"mailto:thea_chung21@milton.edu, sebastian_park21@milton.edu",
-            "img_url":"images/record.png"
-        },
-        {
-            "title":"Apply for the Magus Mabus Board!",
-            "description":"",
-            "details":"Submissions due 11:59pm EST on May 26th <br>_",
-            "btn_txt":"Apply now",
-            "btn_url":"https://docs.google.com/document/d/1yGAvtjvFuntGiI_CKEj8OGM8U22CA6C7T1oPsGvVCzE/edit?usp=sharing",
-            "img_url":""
         }
     ]
 }
