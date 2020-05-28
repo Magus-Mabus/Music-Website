@@ -6,7 +6,9 @@ body{
     /* background-color: black; */
     /* background-image: linear-gradient(rgba(252, 178, 236, 0.959),rgb(190, 172, 255),rgb(207, 235, 248)); */
     /* background-image: linear-gradient(to bottom right, #ffd9ff,#ffceff,#ffc6ff,#e7bfff,#d8bbff,#c8b6ff,#a0c4ff,#a0cbff,#9eddff); */
-    background-image: linear-gradient(to bottom right, #ffd9ff,#ffceff,#e7bfff,#d8bbff,#a0cbff,#9eddff);
+    /* background-image: linear-gradient(to bottom right, #ffd9ff,#ffceff,#e7bfff,#d8bbff,#a0cbff,#9eddff); */
+    background-image: linear-gradient(to bottom right, #ffa9ff,#dda5fd,#d0acff,#a0cbff,#9eddff);
+    /* background-image: linear-gradient(to bottom right, #ffa9ff,#ffa0ff,#dda5fd,#d8bbff,#a0cbff,#9eddff); */
     height:100%;
     background-attachment: fixed;
 }
@@ -56,8 +58,11 @@ body{
 }
 
 .page-content{
-    margin-top: 65%;
+    /*margin-top: 50%*/
+    position: absolute;
+    top: 100%;
     padding: 0px;
+    width: 100%;
 }
 
 .page-footer{
@@ -90,6 +95,18 @@ body{
     transition: ease-in-out .2s;
 }
 
+@media (max-width:420px) {
+    .icon-link{
+        font-size: 7vw !important;
+    }
+  }
+
+@media (max-width:350px) {
+    .icon-link{
+        font-size: 5vw !important;
+    }
+  }
+
 .icon-link:hover{
     transform: scale(1.2,1.2);
 }
@@ -108,13 +125,29 @@ body{
     border-radius: 10px;
     /* margin-left: 15px; */
     /* width: 40%; */
-    width: 50%;
+    width: 95%;
     position: relative;
     /* position: absolute */
-    /* box-shadow: 0px 5px 5px rgba(0,0,0,.6); */
-    left:5%;
-    transform: translate(-0%,0);
+    /* box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.459); */
+    /* left:5%; */
+    left: 50%;
+    padding: 0%;
+    transform: translate(-50%,0);
+    border: solid rgb(206, 206, 206);
+    border-width: 1px 1px;
 }
+
+@media (min-width:400px) {
+    .upcoming{
+        width: 90%;
+    }
+  }
+
+@media (min-width:950px) {
+    .upcoming{
+        width: 50%;
+    }
+  }
 
 .upcoming-title{
     text-align: center;
@@ -123,8 +156,11 @@ body{
     font-size: 30px;
     font-weight:500;
     color: white;
-    border-radius: 10px 10px 0px 0px;
-    background-color: rgb(207, 191, 252);
+    border-radius: 8px 8px 0px 0px;
+    background-color: rgb(162, 129, 252);
+    top: 0%;
+    padding: 20px;
+    margin-top: 0;
 }
 
 .update{
@@ -135,10 +171,12 @@ body{
 }
 
 .update-image{
+    margin-top: 30px;
     width: 85%;
     position: relative;
     left: 50%;
     transform: translate(-50%, 0%);
+    border-radius: 10px;
 }
 
 .update-title{
@@ -170,6 +208,12 @@ body{
     font-family: 'Quicksand';
     width: 15%;
     margin-top: 25px;
+    transition: all ease-in-out .2s;
+}
+
+.sign-up-button:hover{
+    background-color: rgb(110, 192, 219);
+    width: 16%;
 }
 
 .button-text{
@@ -183,7 +227,7 @@ body{
 }
 
 .update-break{
-    background-color: rgb(199, 199, 199);
+    background-color: rgb(224, 224, 224);
     width: 100%;
     height: 1px;
     margin-top: 20px;
