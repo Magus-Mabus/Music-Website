@@ -44,7 +44,7 @@ body{
     pointer-events: none;
     font-size: 100px;
     color: rgb(255, 255, 255);
-    font-family: "Quicksand";
+    font-family: "Poppins";
     text-align: center;
     font-weight: 100;
     top: 40%;
@@ -153,8 +153,10 @@ body{
     text-align: center;
     text-transform: uppercase;
     font-family: "Quicksand";
+    /* font-family: "Poppins"; */
     font-size: 30px;
     font-weight:500;
+    /* font-weight:200; */
     color: white;
     border-radius: 8px 8px 0px 0px;
     background-color: rgb(162, 129, 252);
