@@ -8,6 +8,7 @@ window.onresize = function () { resizeFunction() };
 window.onscroll = function () { scrollFunction() };
 particlesJS.load("particles-js", "particle-cfg.json");
 function scrollFunction() {
+    console.log(document.body.scrollTop);
     var particleCanvas = document.getElementById("particles-js").style;
     var mainTitle = document.getElementById("scroll-up-smaller").style;
     if (document.body.scrollTop / document.body.clientHeight > 50 / 790
@@ -15,6 +16,7 @@ function scrollFunction() {
         mainTitle.padding = "0px 0px";
         mainTitle.backgroundColor = "#dda5fd90";
         mainTitle.backdropFilter = "blur(20px)";
+        mainTitle.webkitBackdropFilter = "blur(20px)";
         mainTitle.top = "-1%";
         // mainTitle.fontSize = "4vw";
         mainTitle.fontSize = headerSize;
@@ -23,6 +25,7 @@ function scrollFunction() {
     } else {
         mainTitle.padding = "20px 20px";
         mainTitle.backgroundColor = "transparent";
+        mainTitle.webkitBackdropFilter = "none";
         mainTitle.top = "40%";
         mainTitle.backdropFilter = "none";
         mainTitle.fontSize = titleSize;
