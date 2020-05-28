@@ -1,37 +1,37 @@
 { 
     "featured":[
     {
-        "title":"yah.",
+        "title":"????",
         "description":"1st Place Prize",
-        "creator":"Oliver Weissleder '21",
+        "creator":"????",
         "platform_img":"images/apple.png",
-        "playlist_url":"https://music.apple.com/us/playlist/yah/pl.u-qxylK6aTGqryNR"
+        "playlist_url":""
     },
 
     {
-        "title":"chilly willy",
+        "title":"????",
         "description":"2nd Place Prize",
-        "creator":"Jack Burton '22",
+        "creator":"????",
         "platform_img":"images/spotify.png",
-        "playlist_url":"https://open.spotify.com/playlist/57zBHpKk08lyjXvBsbrNmp?si=jkjW-3lTR4qYQGyRmda6jA"
+        "playlist_url":""
 
     },
 
     {
-        "title":"better playlist",
+        "title":"????",
         "description":"3rd Place Prize",
-        "creator":"Calvin Cheong '20",
+        "creator":"????",
         "platform_img":"images/spotify.png",
-        "playlist_url":"https://open.spotify.com/playlist/23KFixsMnrNG1ipoZxgYXi?si=xbWMqAFIQB6GhixFDM7L1g"
+        "playlist_url":""
 
     },
 
     {
-        "title":"u need to calm down",
+        "title":"????",
         "description":"Honorable Mention",
-        "creator":"Kayla Mathieu '21",
+        "creator":"????",
         "platform_img":"images/spotify.png",
-        "playlist_url":"https://open.spotify.com/playlist/7GjHpVfXA8a1RYZrKrgZWH?si=b_dK_0wMSZWJbXp3BGB4LQ"
+        "playlist_url":""
 
     }
 

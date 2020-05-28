@@ -7,6 +7,15 @@
             "btn_txt":"Join Premiere",
             "btn_url":"https://www.youtube.com/channel/UCaNraIwjfO12Ejxw30TL8cg?view_as=subscriber",
             "img_url":"images/beatstock2020.gif"
+        },
+
+        {
+            "title":"Music Board Announcements",
+            "description":"We are currently choosing our new board members!",
+            "details":"Decisions released to applicants on Tuesday, June 6th<br>",
+            "btn_txt":"Questions?",
+            "btn_url":"emailto:thea_chung@milton.edu, sebatian_park@milton.edu",
+            "img_url":"images/application.png"
         }
 
     ]
