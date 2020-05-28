@@ -14,7 +14,7 @@
             "description":"We are currently choosing our new board members!",
             "details":"Decisions released to applicants on Tuesday, June 6th<br>",
             "btn_txt":"Questions?",
-            "btn_url":"emailto:thea_chung@milton.edu, sebatian_park@milton.edu",
+            "btn_url":"mailto:thea_chung@milton.edu,sebatian_park@milton.edu",
             "img_url":"images/application.png"
         }
 
