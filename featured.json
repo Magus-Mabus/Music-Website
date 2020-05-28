@@ -1,0 +1,31 @@
+{ 
+    "featured":[
+    {
+        "title":"yah.",
+        "description":"Original playlist by Oliver Weissleder '21",
+        "details":"",
+        "platform_img":"images/apple.png",
+        "playlist_url":"https://music.apple.com/us/playlist/yah/pl.u-qxylK6aTGqryNR"
+    },
+
+    {
+        "title":"chilly willy",
+        "description":"Original playlist by Jack Burton '22",
+        "details":"",
+        "platform_img":"images/spotify.png",
+        "playlist_url":"https://open.spotify.com/playlist/57zBHpKk08lyjXvBsbrNmp?si=jkjW-3lTR4qYQGyRmda6jA"
+
+    },
+
+    {
+        "title":"better playlist",
+        "description":"Original playlist by Calvin Cheong '20",
+        "details":"",
+        "platform_img":"images/spotify.png",
+        "playlist_url":"https://open.spotify.com/playlist/23KFixsMnrNG1ipoZxgYXi?si=xbWMqAFIQB6GhixFDM7L1g"
+
+    }
+
+]
+
+}

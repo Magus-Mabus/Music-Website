@@ -23,3 +23,24 @@ function fillUpdates(item) {
         '</div>' +
         '<br>';
 }
+
+$.getJSON("featured.json", function (json) {
+    featured = json['featured'];
+    featured.forEach(fillFeatured);
+});
+
+function fillFeatured(item) {
+    //Find the updates panel and add each update to it with the following format; 
+    //the "format" is just a huge string that mimics HTML that we can insert into the page
+    document.getElementById("featured-panel").innerHTML +=
+        '<div class="playlist-break"></div>' +
+        '<div class = "playlist">' +
+        '<p class="playlist-title">' + item['title'] + ' </p>' +
+        '<p class="playlist-details">' + item['description'] +
+        '<br>' + item['details'] + '</p>' +
+        '<a class="transparent" href="' + item['playlist_url'] + '" target="_blank">' +
+        '<img src="' + item['platform_img'] + '" alt="" class="icon-image">' +
+        '</a>' +
+        '</div>' +
+        '<br>';
+}
