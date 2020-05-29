@@ -1,6 +1,14 @@
 {
     "updates":[
         {
+            "title":"View Beatstock Live!",
+            "description":"Watch Youtube Premier Below<br>",
+            "details":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/iqqs5HfpuNg\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+            "btn_txt":"Open Link",
+            "btn_url":"https://www.youtube.com/channel/UCaNraIwjfO12Ejxw30TL8cg?view_as=subscriber",
+            "img_url":"<br>"
+        },
+        {
             "title":"Virtual Beatstock 2020",
             "description":"Join us for our Youtube live premiere of Beatstock",
             "details":"7:30pm EST Friday, May 29th<br>Submissions due 11:59pm EST Wednesday, May 20th",
