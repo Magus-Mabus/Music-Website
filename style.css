@@ -239,6 +239,7 @@ body{
 }
 
 .featured {
+    margin-top: 30px;
     background-color: white;
     border-radius: 10px;
     width: 95%;
