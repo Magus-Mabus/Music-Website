@@ -5,7 +5,7 @@
             "description":"Watch Youtube Video Below<br>",
             "details":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/iqqs5HfpuNg\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen class=\"embedYT\"></iframe>",
             "btn_txt":"Watch on YouTube",
-            "btn_url":"https://www.youtube.com/channel/UCaNraIwjfO12Ejxw30TL8cg?view_as=subscriber",
+            "btn_url":"https://www.youtube.com/watch?v=iqqs5HfpuNg",
             "img_url":"<br>"
         },
         {
