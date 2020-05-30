@@ -1,12 +1,12 @@
 { 
     "featured":[
-    {
-        "title":"????",
-        "description":"1st Place Prize",
-        "creator":"????",
-        "platform_img":"images/apple.png",
-        "playlist_url":""
-    },
+        {
+            "title":"yah.",
+            "description":"1st Place Prize",
+            "creator":"Oliver Weissleder '21",
+            "platform_img":"images/apple.png",
+            "playlist_url":"https://music.apple.com/us/playlist/yah/pl.u-qxylK6aTGqryNR"
+        },
 
     {
         "title":"chilly willy",
