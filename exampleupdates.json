@@ -3,7 +3,7 @@
         {
             "title":"View Beatstock 2020!",
             "description":"Watch Youtube Video Below<br>",
-            "details":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/iqqs5HfpuNg\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen class=\"embedYT\"></iframe>",
+            "details":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/iqqs5HfpuNg?cc_load_policy=1\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen class=\"embedYT\"></iframe>",
             "btn_txt":"Open Link",
             "btn_url":"https://www.youtube.com/channel/UCaNraIwjfO12Ejxw30TL8cg?view_as=subscriber",
             "img_url":"<br>"
