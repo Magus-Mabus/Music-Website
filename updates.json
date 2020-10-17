@@ -7,7 +7,7 @@
             "btn_txt":"Register Here!",
             "btn_url":"http://cglink.me/r864636",
             "img_url":"images/fallbeatnik.png"
-        }
+        },
         {
             "title":"View Beatstock 2020!",
             "description":"Watch Youtube Video Below<br>",
@@ -15,8 +15,7 @@
             "btn_txt":"Watch on YouTube",
             "btn_url":"https://www.youtube.com/watch?v=iqqs5HfpuNg",
             "img_url":"<br>"
-        },
-        
-
+        }
+    
     ]
 }
