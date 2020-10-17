@@ -1,6 +1,14 @@
 {
     "updates":[
         {
+            "title":"Live Beatnik Raffle",
+            "description":"Enter our live Beatnik raffle for a chance to win visa gift cards throughout the night!",
+            "details":"",
+            "btn_txt":"Enter Now",
+            "btn_url":"https://forms.gle/w9sJmHmqzqr3cnuHA",
+            "img_url":"images/fallbeatnik.png"
+        },
+        {
             "title":"Fall Beatnik 10/17",
             "description":"Get excited for our first Beatnik of the year!",
             "details":"Join us at 7:30 EST to hear amazing performances, participate in live raffles, and jam to jazz! <br>",
