@@ -1,37 +1,19 @@
 { 
     "featured":[
         {
-            "title":"yah.",
-            "description":"1st Place Prize",
-            "creator":"Oliver Weissleder '21",
-            "platform_img":"images/apple.png",
-            "playlist_url":"https://music.apple.com/us/playlist/yah/pl.u-qxylK6aTGqryNR"
+            "title":"🍂",
+            "description":"Fall Playlist Feature",
+            "creator":"Arianna Kamal '23",
+            "platform_img":"images/spotify.png",
+            "playlist_url":"https://open.spotify.com/playlist/7Emd5MmtCBTeaByTXQD37f?si=-Zw6qU1QTkOAuGCP8wZqug"
         },
 
     {
-        "title":"chilly willy",
-        "description":"2nd Place Prize",
-        "creator":"Jack Burton '22",
+        "title":"tyler's playlist",
+        "description":"Fall Playlist Feature",
+        "creator":"Tyler Tjan '22",
         "platform_img":"images/spotify.png",
-        "playlist_url":"https://open.spotify.com/playlist/57zBHpKk08lyjXvBsbrNmp?si=jkjW-3lTR4qYQGyRmda6jA"
-
-    },
-
-    {
-        "title":"better playlist",
-        "description":"3rd Place Prize",
-        "creator":"Calvin Cheong '20",
-        "platform_img":"images/spotify.png",
-        "playlist_url":"https://open.spotify.com/playlist/23KFixsMnrNG1ipoZxgYXi?si=xbWMqAFIQB6GhixFDM7L1g"
-
-    },
-
-    {
-        "title":"u need to calm down",
-        "description":"Honorable Mention",
-        "creator":"Kayla Mathieu '21",
-        "platform_img":"images/spotify.png",
-        "playlist_url":"https://open.spotify.com/playlist/7GjHpVfXA8a1RYZrKrgZWH?si=b_dK_0wMSZWJbXp3BGB4LQ"
+        "playlist_url":""
 
     }
 
