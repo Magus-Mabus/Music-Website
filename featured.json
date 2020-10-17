@@ -2,7 +2,7 @@
     "featured":[
         {
             "title":"🍂",
-            "description":"Fall Playlist Feature",
+            "description":"Featured Fall Playlist",
             "creator":"Arianna Kamal '23",
             "platform_img":"images/spotify.png",
             "playlist_url":"https://open.spotify.com/playlist/7Emd5MmtCBTeaByTXQD37f?si=-Zw6qU1QTkOAuGCP8wZqug"
@@ -10,7 +10,7 @@
 
     {
         "title":"tyler's playlist",
-        "description":"Fall Playlist Feature",
+        "description":"Featured Fall Playlist",
         "creator":"Tyler Tjan '22",
         "platform_img":"images/spotify.png",
         "playlist_url":""
