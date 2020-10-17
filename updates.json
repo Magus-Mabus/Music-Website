@@ -1,6 +1,14 @@
 {
     "updates":[
         {
+            "title":"Fall 10/17 Beatnik",
+            "description":"Get excited for our first Beatnik of the year!",
+            "details":"Join us at 7:30 EST to hear amazing performances, participate in live raffles, and jam to jazz! <br>",
+            "btn_txt":"Register Here!",
+            "btn_url":"mailto:thea_chung21@milton.edu,sebatian_park21@milton.edu",
+            "img_url":"images/fallbeatnik.png"
+        }
+        {
             "title":"View Beatstock 2020!",
             "description":"Watch Youtube Video Below<br>",
             "details":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/iqqs5HfpuNg?cc_load_policy=1\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen class=\"embedYT\"></iframe>",
@@ -8,14 +16,7 @@
             "btn_url":"https://www.youtube.com/watch?v=iqqs5HfpuNg",
             "img_url":"<br>"
         },
-        {
-            "title":"Music Board Announcements",
-            "description":"We are currently choosing our new board members!",
-            "details":"Decisions will be released to applicants on Tuesday, June 2nd via email<br>",
-            "btn_txt":"Questions?",
-            "btn_url":"mailto:thea_chung21@milton.edu,sebatian_park21@milton.edu",
-            "img_url":"images/application.png"
-        }
+        
 
     ]
 }
