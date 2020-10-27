@@ -1,6 +1,14 @@
 {
     "updates":[
         {
+            "title":"View Fall Beatnik 2020!",
+            "description":"Watch Youtube Video Below<br>",
+            "details":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/KcfyyTSe_bI?cc_load_policy=1\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen class=\"embedYT\"></iframe>",
+            "btn_txt":"Watch on YouTube",
+            "btn_url":"https://www.youtube.com/watch?v=KcfyyTSe_bI",
+            "img_url":"<br>"
+        },
+        {
             "title":"Live Beatnik Raffle",
             "description":"Enter our live Beatnik raffle for a chance to win visa gift cards throughout the night!",
             "details":"",
