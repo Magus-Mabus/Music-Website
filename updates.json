@@ -9,20 +9,12 @@
             "img_url":"<br>"
         },
         {
-            "title":"Live Beatnik Raffle",
-            "description":"Enter our live Beatnik raffle for a chance to win visa gift cards throughout the night!",
-            "details":"",
-            "btn_txt":"Enter Now",
-            "btn_url":"https://forms.gle/w9sJmHmqzqr3cnuHA",
-            "img_url":"images/ticket.png"
-        },
-        {
-            "title":"Fall Beatnik 10/17",
-            "description":"Get excited for our first Beatnik of the year!",
-            "details":"Join us at 7:30 EST to hear amazing performances, participate in live raffles, and jam to jazz! <br>",
-            "btn_txt":"Register Here!",
-            "btn_url":"http://cglink.me/r864636",
-            "img_url":"images/fallbeatnik.png"
+            "title":"New Album: Fish Brain",
+            "description":"Listen to our amazing student album!",
+            "details":"Produced by Jamie Lim '21 and Andrew Ma '20<br>",
+            "btn_txt":"Listen Now!",
+            "btn_url":"https://soundcloud.com/user-940616216/sets/fish-brain",
+            "img_url":"https://m.media-amazon.com/images/I/91VzJB9BWLL._SS500_.jpg"
         },
         {
             "title":"View Beatstock 2020!",
