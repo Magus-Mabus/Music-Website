@@ -3,8 +3,9 @@
 
         {
             "title":"Winter Beatstock 2020",
-            "description":"Stay tuned! Zoom recording coming soon :)",
-            "btn_txt":"Subscribe to Youtube",
+            "description":"Stay tuned! Zoom recording coming to our Youtube soon.",
+            "details":"Thanks to everyone who attended!",
+            "btn_txt":"Subscribe to Our Youtube",
             "btn_url":"https://www.youtube.com/channel/UCaNraIwjfO12Ejxw30TL8cg",
             "img_url":"images/winterbeatnik.png"
         },
