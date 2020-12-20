@@ -33,7 +33,6 @@ function fillUpdates(item) {
         '<div class="sign-up-button">' + item['btn_txt'] + '</div>' +
         '</a>' + 
         '<br>' + 
-        '<br>' + 
         minibutton + 
         '</div>' + 
         '<br>'; 
