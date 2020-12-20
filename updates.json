@@ -6,6 +6,8 @@
             "details":"<iframe width=\"560\"height=\"315\" src=\"https://www.youtube.com/embed/7epLgqz-Zbs\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen class=\"embedYT\"></iframe>",
             "btn_txt":"Watch on YouTube",
             "btn_url":"https://youtu.be/7epLgqz-Zbs",
+            "secondary_btn_url":"https://music.magusmabus.org/chat_archive/2020/december.txt",
+            "scd_btn_icn":"fas fa-comment",
             "img_url":"<br>"
         },
         {

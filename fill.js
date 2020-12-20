@@ -10,6 +10,15 @@ $.getJSON("updates.json", function (json) {
 function fillUpdates(item) {
     //Find the updates panel and add each update to it with the following format; 
     //the "format" is just a huge string that mimics HTML that we can insert into the page
+    var minibutton;
+    if(item['scd_btn_icn'] !== null && item['scd_btn_icn'] !== ''){
+        minibutton = `<a class="update-secondary" href=${item['secondary_btn_url']}>` + 
+        `<i class="${item['scd_btn_icn']} secondary-icon"></i>` + 
+        '</a>';
+    }
+    else{
+        minibutton = '<br>';
+    }
     document.getElementById("upcoming-panel").innerHTML +=
         '<div class="update-break"></div>' +
         '<div class = "update">';
@@ -19,12 +28,13 @@ function fillUpdates(item) {
     document.getElementById("upcoming-panel").innerHTML +=
     '<p class="update-title">' + item['title'] + ' </p>' +
         '<p class="update-details">' + item['description'] +
-        '<br>' + item['details'] + '</p>' +
+        '<br>' + item['details'] + '</p>' + 
         '<a class="transparent" href="' + item['btn_url'] + '" target="_blank">' +
         '<div class="sign-up-button">' + item['btn_txt'] + '</div>' +
-        '</a>' +
-        '</div>' +
-        '<br>';
+        '</a>' + 
+        minibutton + 
+        '</div>' + 
+        '<br>'; 
 }
 
 $.getJSON("featured.json", function (json) {
