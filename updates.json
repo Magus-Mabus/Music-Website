@@ -2,10 +2,10 @@
     "updates":[
         {
             "title":"Live Raffle",
-            "description":"Enter our free raffle for gift card prizes! <br>",
+            "description":"Enter our free raffle for gift card prizes! <br> You must follow us on all social media and subscribed on Youtube to win!",
             "btn_txt":"Enter Now!",
             "btn_url":"https://forms.gle/tAVbApiWLUaPAr6K7",
-            "details":"You must follow us on all social media and subscribed on Youtube to win!",
+            "details":"",
             "img_url":"images/ticket.png"
         },
         {
@@ -13,7 +13,7 @@
             "description":"Join us at 7:30pm EST on February, Saturday 27th <br> for a great night of music, lit, and art! <br>",
             "btn_txt":"Register Now",
             "btn_url":"http://cglink.me/2gK/r1020415",
-            "details":"<br>",
+            "details":"",
             "img_url":"images/februarybeatnik'21.png"
         },
         {
