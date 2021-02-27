@@ -1,21 +1,31 @@
 { 
     "featured":[
         {
-            "title":"cHrIsTmAs :))",
-            "description":"Featured Winter Playlist",
-            "creator":"Gracie Denneen '21",
+            "title":"brrrr",
+            "description":"Featured February Playlist",
+            "creator":"Kathryn Fernandopulle '21",
             "platform_img":"images/spotify.png",
-            "playlist_url":"https://open.spotify.com/playlist/6OluJzQt9j76cWD01Vrz4A"
+            "playlist_url":"https://open.spotify.com/playlist/7FZAwuI0mZXcigTuU0cNwC?si=fbKZvY9iR6a7VUWwj_82ww"
         },
 
     {
-        "title":"nov ➡ dec",
-        "description":"Featured Winter Playlist",
-        "creator":"Kathryn Fernandopulle '21",
+        "title":"l-o-v-e 💌",
+        "description":"Featured February Playlist",
+        "creator":"Thea Chung '21",
         "platform_img":"images/spotify.png",
-        "playlist_url":"https://open.spotify.com/playlist/4J2z42tjtsgACK8ADeJYNp"
+        "playlist_url":"https://open.spotify.com/playlist/64g800I8ho4QePBpg4Mb9t?si=5XYvGdDCSQOe77pJ5y9KBA"
+
+    },
+
+    {
+        "title":"in the house bb",
+        "description":"Featured February Playlist",
+        "creator":"Gracie Denneen '21",
+        "platform_img":"images/spotify.png",
+        "playlist_url":"https://open.spotify.com/playlist/6u1d2vAOgw6f9ZlXRki8TS?si=6uRSPRwoRky-Zu3yXaDXdA"
 
     }
+
 
 ]
 
