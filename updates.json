@@ -1,6 +1,14 @@
 {
     "updates":[
         {
+            "title":"Join our album!",
+            "description":"Want your music on Spotify? <br> Submit your music to our 2021 student album!",
+            "btn_txt":"I'm interested!",
+            "btn_url":"https://docs.google.com/forms/d/e/1FAIpQLSeSyjZ0Hyeb-xu_VvtQYbcjOtbCH-ro3r9BmQF6jMn-s6mTpA/viewform?usp=send_form",
+            "details":"You can express interest at the form below. <br> Also, make sure to check out our 2020 album, Fish Brain, on Apple Music, Spotify, and Soundcloud!",
+            "img_url":""
+        },
+        {
             "title":"Songwriting Competition!",
             "description":"Show off your musicality by performing to this backing track! <br> You can rap, sing, do a mashup, improvise a jazz solo, or anything else!",
             "btn_txt":"Download!",
