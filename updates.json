@@ -1,12 +1,12 @@
 {
     "updates":[
         {
-            "title":"Live Raffle",
-            "description":"Enter our free raffle for gift card prizes! <br> You must follow us on all social media and subscribe to our Youtube to win!",
-            "btn_txt":"Enter Now!",
-            "btn_url":"https://forms.gle/tAVbApiWLUaPAr6K7",
+            "title":"Songwriting Competition!",
+            "description":"Show off your musicality by performing to this backing track! <br> You can rap, sing, do a mashup, improvise a jazz solo, or anything else!",
+            "btn_txt":"Download!",
+            "btn_url":"https://music.magusmabus.org/audio/backing/2021_02_february_competition.mp3",
             "details":"",
-            "img_url":"images/ticket.png"
+            "img_url":"images/blank.jpg"
         },
         {
             "title":"February Beatnik is Tonight!!",
