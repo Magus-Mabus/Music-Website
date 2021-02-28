@@ -7,11 +7,42 @@ body{
     /* background-image: linear-gradient(rgba(252, 178, 236, 0.959),rgb(190, 172, 255),rgb(207, 235, 248)); */
     /* background-image: linear-gradient(to bottom right, #ffd9ff,#ffceff,#ffc6ff,#e7bfff,#d8bbff,#c8b6ff,#a0c4ff,#a0cbff,#9eddff); */
     /* background-image: linear-gradient(to bottom right, #ffd9ff,#ffceff,#e7bfff,#d8bbff,#a0cbff,#9eddff); */
-    background-image: linear-gradient(to bottom right, #ffa9ff,#dda5fd,#d0acff,#a0cbff,#9eddff);
+    /*background-image: linear-gradient(to bottom right, #ffa9ff,#dda5fd,#d0acff,#a0cbff,#9eddff);*/
+    background: linear-gradient(133deg, #ffa9ff, #ffa0ff, #dda5fd, #d8bbff, #a0cbff, #9eddff);
+    background-size: 1200% 1200%;
+    -webkit-animation: AnimationName 21s ease infinite;
+    -moz-animation: AnimationName 21s ease infinite;
+    animation: AnimationName 21s ease infinite;
     /* background-image: linear-gradient(to bottom right, #ffa9ff,#ffa0ff,#dda5fd,#d8bbff,#a0cbff,#9eddff); */
     height:100%;
     background-attachment: fixed;
 }
+
+.css-selector {/*https://www.gradient-animator.com/*/
+    background: linear-gradient(133deg, #ffa9ff, #ffa0ff, #dda5fd, #d8bbff, #a0cbff, #9eddff);
+    background-size: 1200% 1200%;
+
+    -webkit-animation: AnimationName 21s ease infinite;
+    -moz-animation: AnimationName 21s ease infinite;
+    animation: AnimationName 21s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 77%}
+    50%{background-position:100% 24%}
+    100%{background-position:0% 77%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 77%}
+    50%{background-position:100% 24%}
+    100%{background-position:0% 77%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 77%}
+    50%{background-position:100% 24%}
+    100%{background-position:0% 77%}
+}
+
 .mission{
     color: transparent;
     font-size: 100px;
