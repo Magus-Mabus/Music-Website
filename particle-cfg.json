@@ -20,7 +20,7 @@
         "nb_sides": 5
       },
       "image": {
-        "src": "images/note.png",
+        "src": "images/translucent-note.png",
         "width": 100,
         "height": 100
       }
