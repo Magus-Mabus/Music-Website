@@ -10,14 +10,11 @@ $.getJSON("updates.json", function (json) {
 function fillUpdates(item) {
     //Find the updates panel and add each update to it with the following format; 
     //the "format" is just a huge string that mimics HTML that we can insert into the page
-    var minibutton;
+    var minibutton = '';
     if(item['scd_btn_icn'] !== null && item['scd_btn_icn'] !== '' && typeof item['scd_btn_icn'] !== 'undefined'){
         minibutton = `<a class="update-secondary" href=${item['secondary_btn_url']}>` + 
         `<i class="${item['scd_btn_icn']} secondary-icon"></i>` + 
         '</a>';
-    }
-    else{
-        minibutton = '';
     }
     document.getElementById("upcoming-panel").innerHTML +=
         '<div class="update-break"></div>' +

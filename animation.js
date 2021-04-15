@@ -14,13 +14,14 @@ function scrollFunction() {
     if (document.body.scrollTop / document.body.clientHeight > 50 / 790
         || document.documentElement.scrollTop / document.body.clientHeight > 50 / 790) {
         mainTitle.padding = "0px 0px";
-        mainTitle.backgroundColor = "#dda5fd90";
+        mainTitle.backgroundColor = "var(--header-bg-color)";
         mainTitle.backdropFilter = "blur(20px)";
         mainTitle.webkitBackdropFilter = "blur(20px)";
         mainTitle.top = "-1%";
         // mainTitle.fontSize = "4vw";
         mainTitle.fontSize = headerSize;
-        mainTitle.fontWeight = "100";
+        // mainTitle.borderBottom = "1px solid rgb(200,200,200)";
+        mainTitle.boxShadow = "0px 0px 20px rgba(0, 0, 0, 0.199)";
         // particleCanvas.opacity = "0";
     } else {
         mainTitle.padding = "20px 20px";
@@ -31,6 +32,8 @@ function scrollFunction() {
         mainTitle.fontSize = titleSize;
         // mainTitle.fontSize = "7vw";
         particleCanvas.opacity = "1";
+        mainTitle.borderBottom = "none";
+        mainTitle.boxShadow = "none";
     }
 }
 

@@ -1,14 +1,14 @@
 {
   "particles": {
     "number": {
-      "value": 50,
+      "value": 20,
       "density": {
         "enable": true,
         "value_area": 800
       }
     },
     "color": {
-      "value": "#ffffff"
+      "value": "#000000"
     },
     "shape": {
       "type": "image",
@@ -20,7 +20,7 @@
         "nb_sides": 5
       },
       "image": {
-        "src": "images/translucent-note.png",
+        "src": "images/gray_note.png",
         "width": 200,
         "height": 200
       }
@@ -36,7 +36,7 @@
       }
     },
     "size": {
-      "value": 10,
+      "value": 20,
       "random": true,
       "anim": {
         "enable": false,

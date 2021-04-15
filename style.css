@@ -1,3 +1,16 @@
+:root{
+    --main-bg-color: rgb(248, 248, 248);
+    --main-text-color: black;
+    --main-card-color: white;
+    --big-font-title-weight: 100;
+    --main-font-body: "Lato";
+    --main-font-body-weight: 300;
+    --main-font-title: "Lato";
+    /* --header-bg-color: #dda5fd90; */
+    --header-bg-color: rgb(253, 253, 253);
+    --main-teal-highlight: #9cf0e1;
+    --main-light-blue-highlight: rgb(123, 213, 243);
+}
 html{
     margin:0px;
 }
@@ -8,14 +21,17 @@ body{
     /* background-image: linear-gradient(to bottom right, #ffd9ff,#ffceff,#ffc6ff,#e7bfff,#d8bbff,#c8b6ff,#a0c4ff,#a0cbff,#9eddff); */
     /* background-image: linear-gradient(to bottom right, #ffd9ff,#ffceff,#e7bfff,#d8bbff,#a0cbff,#9eddff); */
     /*background-image: linear-gradient(to bottom right, #ffa9ff,#dda5fd,#d0acff,#a0cbff,#9eddff);*/
-    background: linear-gradient(133deg, #ffa9ff, #ffa0ff, #dda5fd, #d8bbff, #a0cbff, #9eddff);
+    
+    /* background: linear-gradient(133deg, #ffa9ff, #ffa0ff, #dda5fd, #d8bbff, #a0cbff, #9eddff);
     background-size: 1200% 1200%;
     -webkit-animation: AnimationName 21s ease infinite;
     -moz-animation: AnimationName 21s ease infinite;
-    animation: AnimationName 21s ease infinite;
+    animation: AnimationName 21s ease infinite;*/
+
     /* background-image: linear-gradient(to bottom right, #ffa9ff,#ffa0ff,#dda5fd,#d8bbff,#a0cbff,#9eddff); */
     height:100%;
     background-attachment: fixed;
+    background-color: var(--main-bg-color);
 }
 
 .css-selector {/*https://www.gradient-animator.com/*/
@@ -74,10 +90,11 @@ body{
 .main-title{
     pointer-events: none;
     font-size: 100px;
-    color: rgb(255, 255, 255);
-    font-family: "Poppins";
+    /* color: rgb(255, 255, 255); */
+    color: var(--main-text-color);
+    font-family: var(--main-font-title);
     text-align: center;
-    font-weight: 100;
+    font-weight: var(--big-font-title-weight);
     top: 40%;
     position: fixed;
     left: 50%;
@@ -151,21 +168,29 @@ body{
     user-select: none;
 }
 
+.page-card{
+    transition: all ease-in-out .2s;
+}
+
+.page-card:hover{
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.199);
+}
+
 .upcoming {
-    background-color: white;
+    background-color: var(--main-card-color);
     border-radius: 10px;
     /* margin-left: 15px; */
     /* width: 40%; */
     width: 95%;
     position: relative;
     /* position: absolute */
-    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.199);
     /* left:5%; */
     left: 50%;
     padding: 0%;
     transform: translate(-50%,0);
     /* border: solid rgb(206, 206, 206);
     border-width: 1px 1px; */
+    color: var(--main-text-color);
 }
 
 @media (min-width:400px) {
@@ -183,10 +208,10 @@ body{
 .upcoming-title{
     text-align: center;
     text-transform: uppercase;
-    font-family: "Quicksand";
+    font-family: var(--main-font-body);
     /* font-family: "Poppins"; */
     font-size: 30px;
-    font-weight:500;
+    font-weight:300;
     /* font-weight:200; */
     color: white;
     border-radius: 8px 8px 0px 0px;
@@ -215,7 +240,7 @@ body{
 .update-title{
     text-align: center;
     text-transform: uppercase;
-    font-family: "Quicksand";
+    font-family: var(--main-font-body);
     font-size: 20px;
     font-weight: 600;
     margin: 5px;    
@@ -224,29 +249,29 @@ body{
 
 .update-details{
     text-align: center;
-    font-family: "Quicksand";
+    font-family: var(--main-font-body);
     font-size: 40;
-    font-weight: 400;
+    font-weight: var(--main-font-body-weight);
 }
 
 .sign-up-button{
-    color: white !important;
+    color: black !important;
     text-decoration: none;
     text-align: center;
     transform: translate(-50%, 0%) !important;
-    background-color: rgb(123, 213, 243);
-    padding: 10px;
-    border-radius: 10px;
+    /* background-color: rgb(123, 213, 243); */
+    background-color: var(--main-teal-highlight);
+    padding: 10px 20px;
+    border-radius: 100vh;
     margin-left: 50%;
-    font-family: 'Quicksand';
-    width: 15%;
+    font-family: var(--main-font-body);
+    width: fit-content;
     margin-top: 25px;
     transition: all ease-in-out .2s;
 }
 
 .sign-up-button:hover{
     background-color: rgb(110, 192, 219);
-    width: 16%;
 }
 
 .button-text{
@@ -260,7 +285,7 @@ body{
 }
 
 .update-secondary{
-    background-color: rgb(123, 213, 243);
+    background-color:var(--main-teal-highlight);
     color: white;
     padding: 10px;
     border-radius: 30%;
@@ -286,18 +311,18 @@ body{
 
 .featured {
     margin-top: 30px;
-    background-color: white;
+    background-color: var(--main-card-color);
     border-radius: 10px;
     width: 95%;
     position: relative;
     left: 50%;
     padding: 0%;
     transform: translate(-50%,0);
-    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.199);
     text-align: center;
-    font-family: "Quicksand";
+    font-family: var(--main-font-body);
     font-size: 20px;
-    font-weight: 600;
+    font-weight: var(--main-font-body-weight);
+    color: var(--main-text-color);
 
     /* border: solid rgb(206, 206, 206);
     border-width: 1px 1px; */
@@ -306,7 +331,7 @@ body{
 .featured-title{
     text-align: center;
     text-transform: uppercase;
-    font-family: "Quicksand";
+    font-family: var(--main-font-body);
     font-size: 30px;
     font-weight:500;
     color: white;
@@ -342,7 +367,7 @@ body{
 .playlist-title{
     text-align: center;
     text-transform: uppercase;
-    font-family: "Quicksand";
+    font-family: var(--main-font-body);
     font-size: 20px;
     font-weight: 600;
     margin: 5px;
@@ -351,9 +376,9 @@ body{
 
 .playlist-details{
     text-align: center;
-    font-family: "Quicksand";
+    font-family: var(--main-font-body);
     font-size: 40;
-    font-weight: 400;
+    font-weight: var(--main-font-body-weight);
 }
 
 .platform-flex{
@@ -390,7 +415,7 @@ body{
     position:relative;
 }
 
-.insta-post{
+.insta-posts{
     margin-top: 30px;
     width: 10%;
     position: relative;
@@ -400,25 +425,18 @@ body{
     display: flex;
 
 }
-.post-one{
+.insta-post{
     padding: 5%;
-    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.199);
-    background-color: white;
+    background-color: var(--main-card-color);
     border-radius:10px;
 }
 
+
 .post-two{
-    padding: 5%;
-    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.199);
-    background-color: white;
-    border-radius:10px;
     margin: 0px 30px;
 }
 
 .post-three{
-    padding: 5%;
-    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.199);
-    background-color: white;
     border-radius:10px;
 }
 
