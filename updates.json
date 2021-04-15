@@ -1,6 +1,16 @@
 {
     "updates":[
         {
+            "title":"View February Beatnik 2021!",
+            "description":"Watch Youtube Video and Access Chat Below<br>",
+            "details":"<iframe width=\"560\"height=\"315\" src=\"https://www.youtube.com/embed/5SrDEaEVatM\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen class=\"embedYT\"></iframe>",
+            "btn_txt":"Watch on YouTube",
+            "btn_url":"https://youtu.be/7epLgqz-Zbs",
+            "secondary_btn_url":"https://music.magusmabus.org/chat_archive/2020/february.txt",
+            "scd_btn_icn":"fas fa-comment",
+            "img_url":"<br>"
+        },
+        {
             "title":"Join our album!",
             "description":"Want your music on Spotify? <br> Submit your music to our 2021 student album!",
             "btn_txt":"I'm interested!",
@@ -15,14 +25,6 @@
             "btn_url":"https://music.magusmabus.org/audio/backing/2021_02_february_competition.mp3",
             "details":"",
             "img_url":""
-        },
-        {
-            "title":"February Beatnik 2021!",
-            "description":"February Beatnik 2021 was a success! <br> Congrats to everyone who performed.",
-            "btn_txt":"Subscribe",
-            "btn_url":"https://www.youtube.com/channel/UC18adWsLiK-uF5-4jMFAOhg?sub_confirmation=1",
-            "details":"The video will be on YouTube soon. <br> Subscribe to stay updated!",
-            "img_url":"images/year_specific/2021/flower_groundhog.gif"
         },
         {
             "title":"View Winter Beatnik 2020!",
