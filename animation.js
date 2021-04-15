@@ -15,8 +15,8 @@ function scrollFunction() {
         || document.documentElement.scrollTop / document.body.clientHeight > 50 / 790) {
         mainTitle.padding = "0px 0px";
         mainTitle.backgroundColor = "var(--header-bg-color)";
-        mainTitle.backdropFilter = "blur(20px)";
-        mainTitle.webkitBackdropFilter = "blur(20px)";
+        // mainTitle.backdropFilter = "blur(20px)";
+        // mainTitle.webkitBackdropFilter = "blur(20px)";
         mainTitle.top = "-1%";
         // mainTitle.fontSize = "4vw";
         mainTitle.fontSize = headerSize;
@@ -26,7 +26,7 @@ function scrollFunction() {
     } else {
         mainTitle.padding = "20px 20px";
         mainTitle.backgroundColor = "transparent";
-        mainTitle.webkitBackdropFilter = "none";
+        // mainTitle.webkitBackdropFilter = "none";
         mainTitle.top = "40%";
         mainTitle.backdropFilter = "none";
         mainTitle.fontSize = titleSize;
