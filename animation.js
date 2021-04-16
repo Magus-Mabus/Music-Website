@@ -2,6 +2,8 @@ var particleCanvas = document.getElementById("particles-js").style;
 var mainTitle = document.getElementById("scroll-up-smaller").style;
 var backgroundVideo = document.getElementById("bg-video");
 var backgroundBlurrer = document.getElementById("background-blurrer");
+var pageFooter = document.getElementById("page-footer");
+var preloadVideo = document.getElementById("image-preload");
 var titleSize = "100px";
 var width;
 var headerSize = "60px";
@@ -29,6 +31,8 @@ function scrollFunction() {
         mainTitle.fontWeight = "var(--big-font-title-card-weight)";
         backgroundVideo.style.opacity = "0";
         backgroundBlurrer.style.opacity = "0";
+        pageFooter.style.backgroundColor = "rgba(255, 255, 255, 0.4)";
+        preloadVideo.style.opacity = "0";
     } else {
         mainTitle.padding = "20px 20px";
         mainTitle.backgroundColor = "transparent";
@@ -44,6 +48,8 @@ function scrollFunction() {
         mainTitle.fontWeight = "var(--big-font-title-weight)";
         backgroundVideo.style.opacity = "1";
         backgroundBlurrer.style.opacity = "1";
+        pageFooter.style.backgroundColor = "transparent";
+        preloadVideo.style.opacity = "1";
     }
 }
 
