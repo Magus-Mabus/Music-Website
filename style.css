@@ -6,7 +6,7 @@
     --big-font-title-weight: 700;
     --main-font-body: "Roboto Slab";
     --main-font-body-weight: 300;
-    --main-font-title: "Lato";
+    --main-font-title: "Poppins";
     /* --header-bg-color: #dda5fd90; */
     --header-bg-color: rgb(253, 253, 253);
     --main-teal-highlight: #9cf0e1;
@@ -166,15 +166,15 @@ body{
 }
 
 .fab{
-    color: rgb(196, 74, 201);
+    /* color: rgb(196, 74, 201); */
 }
 
 .fas{
-    color: rgb(196, 74, 201);
+    /* color: rgb(196, 74, 201); */
 }
 
 .footer-icon{
-
+    color: var(--main-pink-highlight)
 }
 
 .icon-link{
