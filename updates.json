@@ -1,6 +1,16 @@
 {
     "updates":[
         {
+            "title":"Sign up for the Beatstock Raffle Now!",
+            "description":"",
+            "details":"$60 in Prizes!",
+            "btn_txt":"Enter now!",
+            "btn_url":"https://forms.gle/5wstSyC731kRgPib9",
+            "secondary_btn_url":"",
+            "scd_btn_icn":"",
+            "img_url":"<br>"
+        },
+        {
             "title":"View February Beatnik 2021!",
             "description":"Watch Youtube Video and Access Chat Below<br>",
             "details":"<iframe width=\"560\"height=\"315\" src=\"https://www.youtube.com/embed/5SrDEaEVatM\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen class=\"embedYT\"></iframe>",
