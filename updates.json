@@ -1,16 +1,6 @@
 {
     "updates":[
         {
-            "title":"ANNOUNCEMENT! I LOVE CHEESE.",
-            "description":"Fat pizza bite",
-            "details":"Hey",
-            "btn_txt":"Eat some pizza",
-            "btn_url":"https://www.google.com",
-            "secondary_btn_url":"",
-            "scd_btn_icn":"",
-            "img_url":"<br>"
-        },
-        {
             "title":"Sign up for the Beatstock Raffle Now!",
             "description":"",
             "details":"$70 in Prizes!",
