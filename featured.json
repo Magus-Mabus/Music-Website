@@ -7,26 +7,21 @@
             "platform_img":"images/spotify.png",
             "playlist_url":"https://open.spotify.com/playlist/7FZAwuI0mZXcigTuU0cNwC?si=fbKZvY9iR6a7VUWwj_82ww"
         },
+        {
+            "title":"l-o-v-e 💌",
+            "description":"Featured February Playlist",
+            "creator":"Thea Chung '21",
+            "platform_img":"images/spotify.png",
+            "playlist_url":"https://open.spotify.com/playlist/64g800I8ho4QePBpg4Mb9t?si=5XYvGdDCSQOe77pJ5y9KBA"
 
-    {
-        "title":"l-o-v-e 💌",
-        "description":"Featured February Playlist",
-        "creator":"Thea Chung '21",
-        "platform_img":"images/spotify.png",
-        "playlist_url":"https://open.spotify.com/playlist/64g800I8ho4QePBpg4Mb9t?si=5XYvGdDCSQOe77pJ5y9KBA"
+        },
+        {
+            "title":"in the house bb",
+            "description":"Featured February Playlist",
+            "creator":"Gracie Denneen '21",
+            "platform_img":"images/spotify.png",
+            "playlist_url":"https://open.spotify.com/playlist/6u1d2vAOgw6f9ZlXRki8TS?si=6uRSPRwoRky-Zu3yXaDXdA"
 
-    },
-
-    {
-        "title":"in the house bb",
-        "description":"Featured February Playlist",
-        "creator":"Gracie Denneen '21",
-        "platform_img":"images/spotify.png",
-        "playlist_url":"https://open.spotify.com/playlist/6u1d2vAOgw6f9ZlXRki8TS?si=6uRSPRwoRky-Zu3yXaDXdA"
-
-    }
-
-
+        }
 ]
-
 }
